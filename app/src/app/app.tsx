@@ -25,7 +25,7 @@ export function App() {
 
       {/** Content */}
       <div className="w-full max-w-lg overflow-hidden relative flex flex-col justify-center items-center space-y-4">
-        <ArtDecoImg src={artY} animate={["fadeInDown", 1]} className="w-full px-1 -top-1" />
+        <ArtDecoImg src={artY} animate={["fadeInDown", 2]} className="w-full px-1 -top-1" />
 
         <div className="py-4 w-full flex flex-row text-center items-center justify-center">
           <ArtDecoImg src={artX} animate={["fadeInLeft", 2]} className="h-40" />
@@ -39,7 +39,7 @@ export function App() {
           <ArtDecoImg src={artXflip} animate={["fadeInRight", 2]} className="h-40" />
         </div>
 
-        <ArtDecoImg src={artYflip} animate={["fadeInUp", 1]} className="w-full px-1 -bottom-1" />
+        <ArtDecoImg src={artYflip} animate={["fadeInUp", 2]} className="w-full px-1 -bottom-1" />
       </div>
 
       {/** BG for desktop */}
