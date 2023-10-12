@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/morenost/public_html/kat/
+    - /bin/cp -R app/dist $DEPLOYPATH
