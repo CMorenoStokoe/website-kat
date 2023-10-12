@@ -4,7 +4,7 @@
 
 import { Button } from "../components/button"
 import { ArtDecoImg } from "../components/artdeco"
-import logo from "../../assets/logo.svg"
+import logo from "/logo.svg"
 
 export const Splash = (props: { onClick: () => void }) => <div
     className="w-full max-w-lg overflow-hidden relative flex flex-col justify-center items-center space-y-4">

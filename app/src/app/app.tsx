@@ -3,15 +3,15 @@ import { useState } from 'react';
 import { Splash } from './views/splash';
 import { ArtDecoImg } from "./components/artdeco"
 
-import artZtl from "../assets/z-windows-tl.svg"
-import artZtr from "../assets/z-windows-tr.svg"
-import artZbl from "../assets/z-windows-bl.svg"
-import artZbr from "../assets/z-windows-br.svg"
+import artZtl from "/z-windows-tl.svg"
+import artZtr from "/z-windows-tr.svg"
+import artZbl from "/z-windows-bl.svg"
+import artZbr from "/z-windows-br.svg"
 
-import artX from "../assets/x-grill.svg"
-import artXflip from "../assets/x-grill-flip.svg"
-import artY from "../assets/y-frill.svg"
-import artYflip from "../assets/y-frill-flip.svg"
+import artX from "/x-grill.svg"
+import artXflip from "/x-grill-flip.svg"
+import artY from "/y-frill.svg"
+import artYflip from "/y-frill-flip.svg"
 import { Main } from './views/main';
 
 export function App() {

@@ -2,11 +2,9 @@
  * Main webpage content
  */
 
-import ig from '../../assets/ig.png'
-import { Button } from "../components/button"
 import { ArtDecoImg } from "../components/artdeco"
 import { InstagramEmbed } from 'react-social-media-embed';
-import logo from "../../assets/logo.svg"
+import logo from "/logo.svg"
 
 export const Main = (props: { onClick: () => void }) => <div
     className="w-full max-w-lg min-w-48 max-h-full relative flex flex-col justify-center items-center space-y-4">
