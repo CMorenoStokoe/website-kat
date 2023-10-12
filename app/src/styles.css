@@ -1,0 +1,25 @@
+/* Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Poiret+One&family=Tilt+Neon&display=swap');
+
+/* Utility styles */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global styles */
+html,
+body,
+#root {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background: black;
+    color: ghostwhite;
+}
+
+/* Speed up Animate.css animations */
+:root {
+    --animate-delay: 0.5s;
+}
