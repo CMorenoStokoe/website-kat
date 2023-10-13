@@ -18,5 +18,5 @@ export const Splash = (props: { onClick: () => void }) => <div
         </p>
     </div>
 
-    <Button text="Enter" onClick={props.onClick} className="w-36 animate__animated animate__flipInX animate__delay-4s" />
+    <Button text="ENTER" onClick={props.onClick} className="w-36 tracking-wider animate__animated animate__flipInX animate__delay-4s" />
 </div>

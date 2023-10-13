@@ -2,15 +2,18 @@
  * Button
  */
 
-export const Button = (props: { text: string, onClick: () => void, className?: string }) => <button
+export const Button = (props: {
+    text: string | JSX.Element,
+    onClick: () => void, className?: string
+}) => <button
     className={`
-        p-1 bg-neutral-700 text-white
-        border border-4 border-double border-neutral-800
-        hover:bg-neutral-500
+        p-1 bg-none text-white font-black 
+        border border-4 border-double
+        hover:bg-neutral-800 
         ${props.className}
     `}
-    style={{ fontFamily: "Poiret One" }}
+    style={{ fontFamily: "Poiret One", color: "#E0CA8D", borderColor: "#E0CA8D" }}
     onClick={props.onClick}
 >
-    {props.text}
-</button>
+        {props.text}
+    </button>
